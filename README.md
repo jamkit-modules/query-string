@@ -1,2 +1,2 @@
-# query-string
+# querystring
 A query string build module for Jamkit
