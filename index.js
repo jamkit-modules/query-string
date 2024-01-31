@@ -15,6 +15,6 @@ const module = (function() {
             return _build_query(params, options);
         }
     }
-});
+})();
 
 __MODULE__ = module;
