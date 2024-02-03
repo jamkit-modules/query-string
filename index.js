@@ -9,10 +9,10 @@ const module = (function() {
     
         return query;
     }
-    
+
     return {
-        stringify: function(params, options={}) {
-            return _build_query(params, options);
+        stringify: function(params, options) {
+            return _build_query(params, options || {});
         }
     }
 })();
