@@ -1,5 +1,5 @@
 # querystring
-A query string build module for Jamkit
+A query string builder module for Jamkit
 
 
 ## Examples
