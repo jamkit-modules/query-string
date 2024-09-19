@@ -1,12 +1,12 @@
 const module = (function() {
     function _build_query(params, options) {
         var query = "";
-    
+
         for (let key in params) {
             query += (query.length > 0) ? "&" : "";
             query += key + "=" + encodeURIComponent(params[key]);
         }
-    
+
         return query;
     }
 
